@@ -1,0 +1,42 @@
+# конфигурация ввода/вывода для stash
+start stash
+
+# устройства
+devices
+item 129 pcl836 devdin 768 0 0
+item 65  pcl836 devcou 768 0 0
+end
+
+# сигналы
+signals
+
+# частотные сигналы
+item 66  0   fa20  Fa20   devcou      0  0 0 1 790
+item 66  0   fp20  Fp20   devcou      1  1 0 1 500
+item 66  0   fa4   Fa4    devcou      2  2 0 1 730
+item 66  0   fp4   Fp4    devcou      3  0 0 1 350
+item 66  0   fa5   Fa5    devcou      4  1 0 1 730
+item 66  0   fp5   Fp5    devcou      5  2 0 1 350
+
+# тип - дискретные и клиентские 129+256=385
+#item 129 130 fc20  пк20   devdin      0  0 0 0 0
+item 385 130 c20   к20    devdin     10  0 1 1 0
+#item 129 130 fgb   кот    devdin     18  0 0 0 0
+item 385 130 cmb1  б1     devdin     10  6 1 1 0
+item 385 130 cmb2  б2     devdin     10  7 1 1 0
+item 385 130 f1    п1     devdin     18  2 1 1 0
+item 385 130 f2    п2     devdin     18  3 1 1 0
+item 385 130 f3    п3     devdin     10  2 1 1 0
+item 385 130 f4    п4     devdin     10  3 1 1 0
+item 385 130 f5    п5     devdin     18  4 1 1 0
+item 385 130 f6    п6     devdin     18  5 1 1 0
+item 385 130 f7    п7     devdin     10  4 1 1 0
+item 385 130 f8    п8     devdin     10  5 1 1 0
+item 385 130 c4    к4     devdin     18  1 1 1 0
+item 385 130 c5    к5     devdin     10  1 1 1 0
+item 385 130 eov4  кв4    devdin      9  1 1 1 0
+item 385 130 eov5  кв5    devdin      9  0 1 1 0
+item 129 132 power ток    devdin      9  2 1 1 0
+end
+
+end

@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="cqmcli.exe"/>
+    <OBJFILES value="cqmcli.obj ..\common\client\stuff.obj ..\common\client\globcli.obj 
+      ..\common\client\fmain.obj ..\common\client\fcustomashgraph.obj 
+      ..\common\windows\fdm.obj ..\common\windows\global.obj 
+      ..\common\windows\fmsgs.obj ..\common\windows\logfile.obj 
+      ..\common\windows\fclock.obj ..\common\classes\cqmdiag.obj 
+      ..\common\client\fcustomminutes.obj ..\common\windows\fpromku.obj 
+      ..\common\client\fselectpointdate.obj ..\common\client\clientdata.obj 
+      ..\common\client\rhours.obj ..\common\classes\coalheap.obj 
+      ..\common\classes\defines.obj ..\common\client\rashgraph.obj 
+      ..\common\client\fcustomvagonsviewer.obj 
+      ..\common\client\fcustomvagonseditor.obj ..\common\client\rvagons.obj 
+      ..\common\client\rpos.obj ..\common\client\rmin.obj 
+      ..\common\client\findic.obj ..\common\client\fpositseditor.obj 
+      ..\common\client\rcert.obj ..\common\client\foperhelp.obj 
+      ..\common\windows\floader.obj ..\common\windows\fenterdata.obj 
+      ..\common\client\cqmnet.obj ..\common\client\froutes.obj 
+      ..\common\client\faccums.obj ..\common\client\fvagonbatch.obj 
+      ..\common\client\frepreview.obj ..\common\client\falarm.obj 
+      ..\common\client\clialarmthread.obj ..\common\client\rintervals.obj 
+      ..\common\classes\cqmstreamparse.obj ..\common\classes\cqmversion.obj 
+      ..\common\client\rmonth.obj ..\common\client\ravgash.obj"/>
+    <RESFILES value="cqmcli.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) ..\common\client\fmain.dfm 
+      ..\common\client\fcustomashgraph.dfm ..\common\windows\fdm.dfm 
+      ..\common\windows\fmsgs.dfm ..\common\windows\fclock.dfm 
+      ..\common\client\fcustomminutes.dfm ..\common\windows\fpromku.dfm 
+      ..\common\client\fselectpointdate.dfm ..\common\client\rhours.dfm 
+      ..\common\client\rashgraph.dfm ..\common\client\fcustomvagonsviewer.dfm 
+      ..\common\client\fcustomvagonseditor.dfm ..\common\client\rvagons.dfm 
+      ..\common\client\rpos.dfm ..\common\client\rmin.dfm 
+      ..\common\client\findic.dfm ..\common\client\fpositseditor.dfm 
+      ..\common\client\rcert.dfm ..\common\client\foperhelp.dfm 
+      ..\common\windows\floader.dfm ..\common\windows\fenterdata.dfm 
+      ..\common\client\froutes.dfm ..\common\client\faccums.dfm 
+      ..\common\client\fvagonbatch.dfm ..\common\client\frepreview.dfm 
+      ..\common\client\falarm.dfm ..\common\client\rintervals.dfm 
+      ..\common\client\ravgash.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="ZParseSql.lib ZDbc.lib ZCore.lib ZPlain.lib ZComponent.lib teeui.lib 
+      teeqr.lib bdertl.lib vclx.lib qrpt.lib vcldb.lib dbrtl.lib tee.lib 
+      teedb.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib teedb.lib tee.lib dbrtl.lib vcldb.lib qrpt.lib vclx.lib 
+      bdertl.lib teeqr.lib teeui.lib ZComponent.lib ZPlain.lib ZCore.lib 
+      ZDbc.lib ZParseSql.lib"/>
+    <PACKAGES value="dbrtl.bpi vcldb.bpi teedb.bpi tee.bpi teeqr.bpi"/>
+    <PATHCPP value=".;..\common\client;..\common\windows;..\common\classes"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG;CQM_ON_WINDOWS;CQM_CLIENT_APPLICATION;FIREBIRD15"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="cqmcli.cpp"/>
+    <INCLUDEPATH value="..;..\common\client;..\common\classes;..\common\windows;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeosdbo\src\core;$(BCB)\zeosdbo\src\component;$(BCB)\zeosdbo\src\dbc;$(BCB)\zeosdbo\src\parsesql;$(BCB)\zeosdbo\src\plain"/>
+    <LIBPATH value="..;..\common\client;..\common\classes;..\common\windows;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\zeosdbo\packages\cbuilder6\build"/>
+    <WARNINGS value="-w-par -w-asc"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I.. -I..\common\client -I..\common\classes 
+      -I&quot;C:\Program Files\Borland\CBuilder5\Projects\.&quot; -I..\common\windows 
+      -I$(BCB)\include -I$(BCB)\include\vcl -I$(BCB)\zeos\zeosdbo 
+      -I$(BCB)\zeos\zeosdbo\common -I$(BCB)\zeos\zeosdbo\dbase -src_suffix cpp 
+      -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl6.csm -Hc -Q -Vx -Ve -xp -fp -X- -r- -a8 -5 -b- -d -k 
+      -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="cqmcli.cpp" FORMNAME="" UNITNAME="cqmcli" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="cqmcli.res" FORMNAME="" UNITNAME="cqmcli" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\stuff.cpp" FORMNAME="" UNITNAME="stuff" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\globcli.cpp" FORMNAME="" UNITNAME="globcli" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\fmain.cpp" FORMNAME="MainF" UNITNAME="fmain" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\fcustomashgraph.cpp" FORMNAME="CustomAshGraphF" UNITNAME="fcustomashgraph" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\windows\fdm.cpp" FORMNAME="DM" UNITNAME="fdm" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\windows\global.cpp" FORMNAME="" UNITNAME="global" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\windows\fmsgs.cpp" FORMNAME="MsgsF" UNITNAME="fmsgs" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\windows\logfile.cpp" FORMNAME="" UNITNAME="logfile" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\windows\fclock.cpp" FORMNAME="ClockF" UNITNAME="fclock" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\classes\cqmdiag.cpp" FORMNAME="" UNITNAME="cqmdiag" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\fcustomminutes.cpp" FORMNAME="MinutesF" UNITNAME="fcustomminutes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\windows\fpromku.cpp" FORMNAME="ProMKUF" UNITNAME="fpromku" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\fselectpointdate.cpp" FORMNAME="SelectPointDateF" UNITNAME="fselectpointdate" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\clientdata.cpp" FORMNAME="" UNITNAME="clientdata" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\rhours.cpp" FORMNAME="RepHours" UNITNAME="rhours" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\classes\coalheap.cpp" FORMNAME="" UNITNAME="coalheap" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\classes\defines.cpp" FORMNAME="" UNITNAME="defines" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\rashgraph.cpp" FORMNAME="RepAshGraph" UNITNAME="rashgraph" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\fcustomvagonsviewer.cpp" FORMNAME="CustomVagonsViewerF" UNITNAME="fcustomvagonsviewer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\fcustomvagonseditor.cpp" FORMNAME="CustomVagonsEditorF" UNITNAME="fcustomvagonseditor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\rvagons.cpp" FORMNAME="RepVagons" UNITNAME="rvagons" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\rpos.cpp" FORMNAME="RepPos" UNITNAME="rpos" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\rmin.cpp" FORMNAME="RepMin" UNITNAME="rmin" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\findic.cpp" FORMNAME="IndicatorF" UNITNAME="findic" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\fpositseditor.cpp" FORMNAME="PositsEditorF" UNITNAME="fpositseditor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\rcert.cpp" FORMNAME="RepCert" UNITNAME="rcert" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\foperhelp.cpp" FORMNAME="OperHelpF" UNITNAME="foperhelp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\windows\floader.cpp" FORMNAME="LoaderF" UNITNAME="floader" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\windows\fenterdata.cpp" FORMNAME="EnterDataF" UNITNAME="fenterdata" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\cqmnet.cpp" FORMNAME="" UNITNAME="cqmnet" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\froutes.cpp" FORMNAME="RoutesF" UNITNAME="froutes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\faccums.cpp" FORMNAME="AccumsF" UNITNAME="faccums" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\fvagonbatch.cpp" FORMNAME="VagonBatchF" UNITNAME="fvagonbatch" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="cqmcli.todo" FORMNAME="" UNITNAME="cqmcli" CONTAINERID="ToDo" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\frepreview.cpp" FORMNAME="RepPreviewF" UNITNAME="frepreview" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\falarm.cpp" FORMNAME="AlarmF" UNITNAME="falarm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\clialarmthread.cpp" FORMNAME="" UNITNAME="clialarmthread" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\rintervals.cpp" FORMNAME="RepIntervals" UNITNAME="rintervals" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\classes\cqmstreamparse.cpp" FORMNAME="" UNITNAME="cqmstreamparse" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\classes\cqmversion.cpp" FORMNAME="" UNITNAME="cqmversion" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\rmonth.cpp" FORMNAME="" UNITNAME="rmonth" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\common\client\ravgash.cpp" FORMNAME="AvgAshF" UNITNAME="ravgash" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=3
+MinorVer=0
+Release=3
+Build=52
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=Глузман, Кеба, Пиленков, Цехмистро
+FileDescription=МКУ Клиент
+FileVersion=3.0.3.52
+InternalName=cqmcli
+LegalCopyright=Copyright (c) Глузман, Кеба, Невойса, Пиленков, Цехмистро, 2002
+LegalTrademarks=
+OriginalFilename=
+ProductName=Комплекс МКУ
+ProductVersion=3
+Comments=
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Bin\dcl31w60.bpl=Delphi 1.0 Compatibility Components
+c:\program files\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+
+[HistoryLists\hlIncludePath]
+Count=15
+Item0=..;..\common\client;..\common\classes;..\common\windows;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeosdbo\src\core;$(BCB)\zeosdbo\src\component;$(BCB)\zeosdbo\src\dbc;$(BCB)\zeosdbo\src\parsesql;$(BCB)\zeosdbo\src\plain
+Item1=..\;..;..\common\client;..\common\classes;..\common\windows;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeosdbo\src\core;$(BCB)\zeosdbo\src\component;$(BCB)\zeosdbo\src\dbc;$(BCB)\zeosdbo\src\parsesql;$(BCB)\zeosdbo\src\plain
+Item2=..;..\common\client;..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item3=..\;..;..\common\client;..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item4=..;..\server;..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;..\common\client;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item5=..\;..;..\server;..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;..\common\client;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item6=..\;..\server;..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;..\common\client;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item7=..\server;..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;..\common\client;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item8=..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;..\common\client;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item9=..\common\classes;C:\Program Files\Borland\CBuilder5\Projects;..\common\windows;..\common\client;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item10=..\common\windows;..\common\client;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item11=$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item12=..\common\windows;..\common\client;..\stash\ico;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item13=$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units
+Item14=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=15
+Item0=..;..\common\client;..\common\classes;..\common\windows;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\zeosdbo\packages\cbuilder6\build
+Item1=..\;..;..\common\client;..\common\classes;..\common\windows;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\zeosdbo\packages\cbuilder6\build
+Item2=..;..\common\client;..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item3=..\;..;..\common\client;..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item4=..;..\server;..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;..\common\client;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item5=..\;..;..\server;..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;..\common\client;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item6=..\;..\server;..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;..\common\client;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item7=..\server;..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;..\common\client;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item8=..\common\classes;C:\Program Files\Borland\CBuilder5\Projects\;..\common\windows;..\common\client;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item9=..\common\classes;C:\Program Files\Borland\CBuilder5\Projects;..\common\windows;..\common\client;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item10=..\common\windows;..\common\client;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item11=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\zeos\zeosdbo;$(BCB)\zeos\zeosdbo\common;$(BCB)\zeos\zeosdbo\dbase
+Item12=..\common\windows;..\common\client;..\stash\ico;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item13=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item14=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=3
+Item0=c:\program files\borland\cbuilder5\source\vcl
+Item1=c:\program files\borland\cbuilder5\source\vcl;C:\Program Files\Borland\CBuilder5\zeos\zeosdbo\dbase\
+Item2=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=5
+Item0=_DEBUG;CQM_ON_WINDOWS;CQM_CLIENT_APPLICATION;FIREBIRD15
+Item1=_DEBUG;CQM_ON_WINDOWS;CQM_CLIENT_APPLICATION
+Item2=_DEBUG;CQM_ON_WINDOWS
+Item3=_DEBUG;WINDOWS
+Item4=_DEBUG
+
+[Debugging]
+DebugSourceDirs=c:\program files\borland\cbuilder5\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=1
+LinkDebugVcl=0
+LinkCGLIB=0
+  </IDEOPTIONS>
+</PROJECT>

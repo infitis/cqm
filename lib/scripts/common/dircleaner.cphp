@@ -1,0 +1,172 @@
+#!/usr/bin/php
+<?php
+/*
+    ________
+    usage:
+    dircleaner.php <dir> <file extension> <limit date> <backup dir> 
+    ________
+    sample:
+    dircleaner.php ./tmp log 30 c:/backup/log
+    pack and remove all files *.log in dir ./tmp older 30 days in c:/backup/log
+    ________
+    Copyright (c) Ruslan Keba 2004
+*/
+
+
+/*zip outputfile*/
+if (!extension_loaded('zlib'))
+{
+    die ("zlib extension not loaded.\n");
+}
+
+
+/*global variables*/
+
+/*dir for clean*/
+$wdir = "";
+/*list of file extensions for delete*/
+$exts = array();
+/*limit date for delete*/
+$ld = 0;
+/*backup dir*/
+$budir = "";
+/*count all processing files*/
+$pcount = 0;
+/*count deleted files*/
+$fcount = 0;
+
+/*pack and remove file*/
+function storef($filename)
+{
+	global $budir;
+
+    //get content
+    $fh = fopen ($filename, "r");
+    if ($fh == FALSE) return FALSE;
+    $content = fread ($fh, filesize ($filename));
+    fclose ($fh);
+
+    //open file for writing with maximum compression
+    $zp = gzopen($budir."/".basename($filename).".gz", "w9");
+    if ($zp == FALSE) return FALSE;
+
+    //write string to file
+    gzwrite($zp, $content);
+
+    //close file
+    gzclose($zp);
+
+    unlink ($filename);
+	return TRUE;
+}
+
+
+/*check dir for clean*/
+if ($argc < 2)
+{
+   die("no dir for clean.\n");
+}
+$wdir = $argv[1]."/";
+
+/*check extensions*/
+if ($argc < 3 || $argv[2] == '*')
+{
+    print "\tdircleaner: no extensions, will delete all files in dir.\n";
+}
+else
+{
+    $exts[] = $argv[2];
+}
+reset($exts);
+
+/*check limit date*/
+if ($argc < 4)
+{
+    print "\tdircleaner: no limit date, will delete all files in dir.\n";
+    $ld = time();
+}
+else
+{
+    $ld = time() - $argv[3]*60*60*24;/*days in seconds*/
+}
+print "\tdircleaner: limit date: ".date("Y-m-d H:i:s", $ld)."\n";
+
+/*check backup dir*/
+if ($argc < 5)
+{
+    print "\tdircleaner: no backup dir, files will be deleted.\n";
+    $budir = "";
+}
+else
+{
+    $budir = $argv[4];
+    print "\tdircleaner: backup dir is $budir\n";
+}
+
+
+
+if (is_dir($wdir))
+{
+    if ($dh = opendir($wdir))
+    {
+        while (($file = readdir($dh)) !== false)
+        {
+            if (is_dir($file)) continue;
+            $pcount++;
+            $p = pathinfo($wdir.$file);
+            $ext = $p["extension"];
+            $df = filemtime($wdir.$file);
+            $printfilename = basename($wdir.$file)."\t".date("Y-m-d H:i:s", $df)."\t";
+            $c = count($exts);
+            if ($c > 0)
+            {
+                if (!in_array($ext, $exts))
+                {
+                    //print "\n";
+                    continue;
+                }
+            }
+
+            if ($df > $ld)
+            {
+               //print "\n";
+               continue;
+            }
+
+            if ($budir == "")
+            {
+	            /*will delete file*/
+	            if (unlink($wdir.$file))
+    	        {
+        	        print "\tdircleaner: ".$printfilename."deleted.\n";
+            	    $fcount++;
+	            }
+	            else
+	            {
+	                print "\tdircleaner: ".$printfilename."can`t delete, skipped.\n";
+	            }
+            }
+            else
+            {
+                /*will stored*/
+	            if (storef($wdir.$file))
+	            {
+	                print "\tdircleaner: ".$printfilename."stored.\n";
+	                $fcount++;
+	            }
+	            else
+	            {
+	                print "\tdircleaner: ".$printfilename."can`t stored, skipped.\n";
+	            }
+            }
+        }
+        closedir($dh);
+    }
+}
+else
+{
+    die("$wdir is not dir.\n");
+}
+
+print "\tdircleaner: deleted $fcount of $pcount file(s)\n";
+?>

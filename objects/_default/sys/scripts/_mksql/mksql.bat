@@ -1,0 +1,1 @@
+rem mksql.php starobesh 3 1a 1b

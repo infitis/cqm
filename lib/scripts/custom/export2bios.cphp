@@ -1,0 +1,154 @@
+<?php
+
+/*
+Š®¬¯«¥ªá ŒŠ“
+
+‘ªà¨¯â íªá¯®àâ  ¨­ä®à¬ æ¨¨ ® ¢ £®­ å ¨§ â ¡«¨æ ¡ §ë ¤ ­­ëå ŒŠ“
+¢ ¨­ä®à¬ æ¨®­­ãî á¨áâ¥¬ã ä¨à¬ë BIOS
+
+(á) ãá« ­ Š¥¡  2004
+
+http://www.kometalab.com.ua
+
+*/
+
+// Path to dbase file
+$dbf_file = "otk.dbf";
+
+$ok = FALSE;
+$td = 0;
+$tm = 0;
+$ty = 0;
+
+function input($prompt, $len=4)
+{
+    print "$prompt";
+
+    $in = "";
+    $last = "";
+    #len += 2; /*¤«ï '\n' & '\r'*/
+    $count = 0;
+
+    while ($len--)
+    {
+        $last = fread(STDIN, 1);
+        $t = trim($last, "\n\r");
+        $in .= $t;
+        $count++;
+    }
+
+    return trim($in);
+}
+
+
+print "
+  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+  ³                                                          ³
+  ³       Š‘’ „€›• ŒŠ“ „‹Ÿ ‘ˆ‘’…Œ› ”ˆŒ›   BIOS        ³
+  ³                                                          ³
+  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+‚¢¥¤¨â¥:
+";
+
+
+do{
+    $ok = FALSE;
+    $td = input("„€’€  (01-31) : ");
+    if ($td>=01 && $td<=31)
+        $ok = TRUE;
+    else
+        print "è¨¡ª , ¯®¢â®à¨â¥ ¢¢®¤.\n";
+} while (!$ok);
+
+do{
+    $ok = FALSE;
+    $tm = input("Œ…‘Ÿ– (01-12) : ");
+    if ($tm>=01 && $tm<=12)
+        $ok = TRUE;
+    else
+        print "è¨¡ª , ¯®¢â®à¨â¥ ¢¢®¤.\n";
+} while (!$ok);
+
+
+do{
+    $ok = FALSE;
+    $ty = input("ƒ„   (00-99) : ");
+    if ($ty>=00 && $ty<=99)
+        $ok = TRUE;
+    else
+        print "è¨¡ª , ¯®¢â®à¨â¥ ¢¢®¤.\n";
+} while (!$ok);
+
+
+print "\n„ â  : $td.$tm.20$ty\n";
+
+$db = mysql_connect("localhost", "root", "") or die("Could not connect : " . mysql_error());
+mysql_select_db("stash");
+
+
+/*mysql query*/
+$q  ="select * from vagons where a is not null and wei is not null and pos is not null and cert is not null and number is not null and rwdate =";
+$q .= sprintf("'20%02d%02d%02d'", $ty, $tm, $td);
+$res=mysql_query($q) or die(mysql_error());
+
+
+/*open dbf file*/
+if (!extension_loaded('dbase')) {
+    die("dbase extensions not loaded.\n");
+}
+$dbf = dbase_open($dbf_file, 2);
+
+$dbfrows = dbase_numrecords($dbf);
+for ($i=0; $i<$dbfrows; $i++)
+{
+    dbase_delete_record($dbf, $i);
+}
+dbase_pack($dbf);
+
+$c = 0;
+
+while ($row = mysql_fetch_array($res, MYSQL_ASSOC))
+{
+
+    $rec = array();
+
+    array_push($rec, sprintf("% 8s", $row["number"]));
+    array_push($rec, sprintf("20%02d%02d%02d", $ty, $tm, $td));
+    array_push($rec, sprintf("%08.2f", $row["wei"]));
+    array_push($rec, sprintf("% 7s", $row["pos"]));
+    array_push($rec, sprintf("% 5s", $row["cert"]));
+    array_push($rec, sprintf("%05.2f", $row["a"]));
+
+
+    $ok = dbase_add_record($dbf, $rec);
+    if (!$ok)
+    {
+        print "dbase_add_record: error.\n";
+    }
+    else
+    {
+        $c++;
+    }
+}
+
+dbase_close($dbf);
+
+mysql_free_result($res);
+mysql_close($db);
+
+print $c." ¢ £®­(®¢) ®¡à ¡®â ­®\n\n‚‘’€‚’… „ˆ‘Š…’“ ‚ „ˆ‘Š‚„\n‡€’…Œ €†Œˆ’… Enter\n";
+input ($temp, 1);
+
+if (copy($dbf_file, "a:\\".$dbf_file))
+{
+    print "“á¯¥è­® áª®¯¨à®¢ ­ ­  ¤¨áª A\n";
+    exit();
+}
+else
+{
+    print "è¨¡ª  ¯à¨ ª®¯¨à®¢ ­¨¨.\n";
+    input ($temp, 2);
+}
+
+?>

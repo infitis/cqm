@@ -1,0 +1,40 @@
+# конфигурация ввода/вывода для starobesh
+start starobesh
+
+# устройства
+devices
+item 130 a10   devdin 768 0 0
+item 66  a10   devcou 768 0 0
+end
+
+# сигналы
+signals
+
+# частотный сигналы
+item 67  0   f1   f1    devcou      0  0 0 1 790
+item 67  0   f2   f2    devcou      1  1 0 1 500
+item 67  0   f3   f3    devcou      2  2 0 1 730
+item 67  0   f4   f4    devcou      3  0 0 1 350
+item 67  0   f5   f5    devcou      4  1 0 1 730
+item 67  0   f6   f6    devcou      5  2 0 1 350
+
+# тип - дискретные и клиентские 129+256=385
+item 385 130 d0   d0    devdin      8  0 1 1 0
+item 385 130 d1   d1    devdin      8  1 1 1 0
+item 385 130 d2   d2    devdin      8  2 1 1 0
+item 385 130 d3   d3    devdin      8  3 1 1 0
+item 385 130 d4   d4    devdin      8  4 1 1 0
+item 385 130 d5   d5    devdin      8  5 1 1 0
+item 385 130 d6   d6    devdin      8  6 1 1 0
+item 385 130 d7   d7    devdin      8  7 1 1 0
+item 385 130 d8   d8    devdin     16  0 1 1 0
+item 385 130 d9   d9    devdin     16  1 1 1 0
+item 385 130 d10  d10   devdin     16  2 1 1 0
+item 385 130 d11  d11   devdin     16  3 1 1 0
+item 385 130 d12  d12   devdin     16  4 1 1 0
+item 385 130 d13  d13   devdin     16  5 1 1 0
+item 385 130 d14  d14   devdin     16  6 1 1 0
+item 385 130 d15  d15   devdin     16  7 1 1 0
+end
+
+end

@@ -1,0 +1,34 @@
+#this is a sample io configuration file for cqm.core.io
+#
+-------------------------------------------------------
+keywords:
+start devices signals item end
+
+-------------------------------------------------------
+format:
+
+start <ioname>
+devices
+item <ioclass> <model> <name> <base> <irq> <dma>
+...
+end
+signals
+item <type> <method> <name> <devname> <offset> <bit> <inverse> <active> <default>
+...
+end
+end
+
+-------------------------------------------------------
+start core
+
+devices
+item 5 pcl836 pcl836din 768 0 0
+item 6 pcl836 pcl836cou 768 0 0
+end
+
+signals
+item 1 1 conv pcl836din 33 0 0 1 0
+item 2 0 fa   pcl836cou 0  0 0 1 0
+end
+
+end

@@ -1,0 +1,5 @@
+<?php
+$f = "set CQM_SOURCE_DATE=".date("Ymd");
+file_put_contents("curdate.cmd", $f);
+
+?>

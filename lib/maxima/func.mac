@@ -1,0 +1,31 @@
+aa: 0.000381$
+bb: -0.709$
+cc: 347.5$
+
+ash(F):=aa*F^2 + bb*F + cc$
+
+cur():=
+(
+          print("a = ", aa),
+          print("b = ", bb),
+          print("b = ", cc)
+)$
+
+new(aval, bval, cval):=
+(
+          print("New values a, b, c:"),
+          aa:aval,
+          bb:bval,
+          cc:cval,
+          cur()
+)$
+
+graph():=
+(
+         plot2d(ash(x), [x, 200, 2000])
+)$
+
+graph2(fmin, fmax):=
+(
+         plot2d(ash(x), [x, fmin, fmax])
+)$

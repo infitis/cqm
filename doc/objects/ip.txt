@@ -1,0 +1,11 @@
+	192.168.6.64	mkustash
+	192.168.6.65	mkusamara
+	192.168.6.66	mkublagodat
+	192.168.6.67	mkuheros
+	192.168.6.68	mkustarobesh
+	192.168.6.69	mkuzmiev
+	192.168.6.70	mkupavlograd
+	192.168.6.71	mkuternovka
+	192.168.6.72	mkuubil
+	192.168.6.73	mkudnepr
+	192.168.6.74	mkuzapdon

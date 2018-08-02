@@ -1,0 +1,35 @@
+# конфигурация ввода/вывода для dnepr
+start cqm.io.zapdon
+
+# устройства
+devices
+item 130 a10 a10din 768 0 0
+item 66  a10 a10cou 768 0 0
+end
+
+# сигналы
+signals
+
+# частотные
+item 67  0   fa3  fa3   a10cou    0  0 0 1 700
+item 67  0   fp3  fp3   a10cou    1  1 0 1 300
+item 67  0   fa4  fa4   a10cou    2  0 0 1 760
+item 67  0   fp4  fp4   a10cou    3  1 0 1 300
+
+# дискретные
+#            обозначение название устройство канал бит инверсия активность поумолчанию
+item 385 130 f1          п1       a10din      8    0   1        1          1
+item 385 130 f2          п2       a10din      8    1   1        1          0
+item 385 130 f3          п3       a10din      8    2   1        1          0
+item 385 130 f4          п4       a10din      8    3   1        1          0
+item 385 130 f5          п5       a10din      8    4   1        1          1
+item 385 130 f6          п6       a10din      8    5   1        1          1
+
+item 385 130 c3          к3       a10din      8    6   1        1          1
+item 385 130 c4          к4       a10din      8    7   1        1          1
+item 385 130 eov3        кв3      a10din      16   0   1        1          0
+item 385 130 eov4        кв4      a10din      16   1   1        1          0
+item 385 132 power       Ток      a10din      16   7   1        1          1
+end
+
+end

@@ -1,0 +1,1 @@
+for %%i in ("*.obj" "*.tds" "*.~*" "*.mb*" "*.il*") do del %%i

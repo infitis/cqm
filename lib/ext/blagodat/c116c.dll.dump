@@ -1,0 +1,219 @@
+Turbo Dump  Version 5.0.16.12 Copyright (c) 1988, 2000 Inprise Corporation
+                     Display of File C116C.DLL
+
+Old Executable Header
+
+DOS File Size                                       C800h  ( 51200. )
+Load Image Size                                      210h  (   528. )
+Relocation Table entry count                          0000h  (     0. )
+Relocation Table address                              0040h  (    64. )
+Size of header record      (in paragraphs)            0004h  (     4. )
+Minimum Memory Requirement (in paragraphs)            000Fh  (    15. )
+Maximum Memory Requirement (in paragraphs)            FFFFh  ( 65535. )
+File load checksum                                    0000h  (     0. )
+Overlay Number                                        001Ah  (    26. )
+
+Initial Stack Segment  (SS:SP)			  0000:00B8
+Program Entry Point    (CS:IP)			  0000:0000
+
+
+Portable Executable (PE) File
+
+Header base: 00000200
+
+CPU type                 80386
+Flags                    210E [ executable backwards 32bit library ]
+DLL flags                0000 [ ]
+Linker Version           5.0
+Time stamp               41F75382 : Wed Jan 26 10:23:30 2005
+O/S Version              4.0
+User Version             0.0
+Subsystem Version        4.0
+Subsystem                0002 [ Windows GUI ]
+Object count             00000007
+Symbols offset           00000000
+Symbols count            00000000
+Optional header size     00E0
+Magic #                  10B
+Code size                00008000
+Init Data size           00003000
+Uninit Data size         00000000
+Entry RVA                0000108C
+Image base               00400000
+Code base                00001000
+Data base                00009000
+Object/File align        00001000/00000200
+Reserved                 00000000
+Image size               00011000
+Header size              00000600
+Checksum                 00000000
+Stack reserve/commit     00000000/00000000
+Heap reserve/commit      00100000/00001000
+Number interesting RVAs  00000010
+Name                   RVA       Size  
+------------------  --------  --------
+Exports             0000E000  0000009A
+Imports             0000D000  0000044C
+Resources           0000F000  00000800
+Exceptions          00000000  00000000
+Security            00000000  00000000
+Fixups              00010000  00000808
+Debug               00000000  00000000
+Description         00000000  00000000
+Global Ptr          00000000  00000000
+TLS                 00000000  00000000
+Callbacks           00000000  00000000
+Bound Imports       00000000  00000000
+Import Addr Table   00000000  00000000
+Delayed Imports     00000000  00000000
+COM Runtime         00000000  00000000
+reserved            00000000  00000000
+
+Object table:
+#   Name      VirtSize    RVA     PhysSize  Phys off  Flags   
+--  --------  --------  --------  --------  --------  --------
+01  .text     00008000  00001000  00007E00  00000600  60000020 [CER]
+02  .data     00003000  00009000  00002800  00008400  C0000040 [IRW]
+03  .tls      00001000  0000C000  00000200  0000AC00  C0000040 [IRW]
+04  .idata    00001000  0000D000  00000600  0000AE00  40000040 [IR]
+05  .edata    00001000  0000E000  00000200  0000B400  40000040 [IR]
+06  .rsrc     00001000  0000F000  00000800  0000B600  40000040 [IR]
+07  .reloc    00001000  00010000  00000A00  0000BE00  50000040 [IRS]
+
+Key to section flags:
+  C - contains code
+  E - executable
+  I - contains initialized data
+  R - readable
+  S - shareable
+  W - writeable
+
+******************************************************************************
+Section:             Import
+  ImportLookUpTblRVA:0000D03C
+  Time Stamp:        00000000
+  Forwarder Chain:   00000000 (index of first forwarder reference)
+
+Imports from KERNEL32.DLL
+                  CloseHandle
+                  CreateFileA
+                  ExitProcess
+                  FreeEnvironmentStringsA
+                  GetACP
+                  GetCPInfo
+                  GetCurrentThreadId
+                  GetEnvironmentStrings
+                  GetFileType
+                  GetLastError
+                  GetLocalTime
+                  GetModuleFileNameA
+                  GetModuleHandleA
+                  GetOEMCP
+                  GetProcAddress
+                  GetProcessHeap
+                  GetStartupInfoA
+                  GetStdHandle
+                  GetStringTypeW
+                  GetVersion
+                  GetVersionExA
+                  GlobalMemoryStatus
+                  HeapAlloc
+                  HeapFree
+                  LoadLibraryA
+                  RaiseException
+                  RtlUnwind
+                  SetConsoleCtrlHandler
+                  SetFilePointer
+                  SetHandleCount
+                  TlsAlloc
+                  TlsFree
+                  TlsGetValue
+                  TlsSetValue
+                  UnhandledExceptionFilter
+                  VirtualAlloc
+                  VirtualFree
+                  WriteFile
+
+Imports from USER32.DLL
+                  EnumThreadWindows
+                  MessageBoxA
+                  wsprintfA
+
+******************************************************************************
+Section:             Exports
+  Flags:             00000000
+  Time Stamp:        00000000
+  Major Version:     0000
+  Minor Version:     0000
+
+Exports from c116c.dll
+  4 exported name(s), 4 export addresse(s).  Ordinal base is 1.
+  Sorted by Name:
+    RVA      Ord. Hint Name
+    -------- ---- ---- ----
+    000090F8    4 0000 ___CPPdebugHook
+    000012FC    3 0001 _c116c
+    000012C4    1 0002 _cqm_extension_start
+    000012E0    2 0003 _cqm_extension_stop
+
+******************************************************************************
+Section:             Resources
+  Flags:             00000000
+  Time Stamp:        323A52F0 : Sat Sep 14 09:38:40 1996
+  Major Version:     0000
+  Minor Version:     0000
+
+Resources:
+Type          Name                   Lang Id
+--------------------------------------------
+[0 named entries, 4 ID entries]
+type: Icon (3)  (next directory @00000030)
+
+              [0 named entries, 1 ID entries]
+              type: Cursor (1)  (next directory @00000090)
+
+                                     [0 named entries, 1 ID entries]
+                                     type: Unknown (1049)  (data @000000F0)
+                                         Offset:    0000F150
+                                         Size:      000002E8
+                                         Code Page: 00000000
+                                         Reserved:  00000000
+
+type: RCData (10)  (next directory @00000048)
+
+              [1 named entries, 0 ID entries]
+              DVCLAL  (next directory @000000A8)
+
+                                     [0 named entries, 1 ID entries]
+                                     type: Unknown (0)  (data @00000100)
+                                         Offset:    0000F438
+                                         Size:      00000010
+                                         Code Page: 00000000
+                                         Reserved:  00000000
+
+type: Group Icon (14)  (next directory @00000060)
+
+              [1 named entries, 0 ID entries]
+              MAINICON  (next directory @000000C0)
+
+                                     [0 named entries, 1 ID entries]
+                                     type: Unknown (1049)  (data @00000110)
+                                         Offset:    0000F448
+                                         Size:      00000014
+                                         Code Page: 00000000
+                                         Reserved:  00000000
+
+type: Version (16)  (next directory @00000078)
+
+              [0 named entries, 1 ID entries]
+              type: Cursor (1)  (next directory @000000D8)
+
+                                     [0 named entries, 1 ID entries]
+                                     type: Unknown (1049)  (data @00000120)
+                                         Offset:    0000F45C
+                                         Size:      00000340
+                                         Code Page: 00000000
+                                         Reserved:  00000000
+
+
+

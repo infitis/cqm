@@ -1,0 +1,50 @@
+array(x,40)$
+array(y,40)$
+(sx:0, sx2:0, sx3:0, sx4:0, sy:0, sxy:0, sx2y:0)$
+ash(F):=aa*F^2 + bb*F + cc$
+aa:1$
+bb:2$
+cc:3$
+
+
+input_arrays():=
+(
+    print("n = ?"),
+    n:read(),
+    n:n-1,
+    for i:0 step 1 thru n do
+    (
+        print("enter F; A;"),
+        x[i]:read(),
+        y[i]:read()
+    )
+)$
+
+make_abc():=
+(
+    for i:0 step 1 thru n do
+    (
+        sx:  sx + x[i],
+        sx2: sx2+(x[i]^2),
+        sx3: sx3+(x[i]^3),
+        sx4: sx4+(x[i]^4),
+        sy:  sy + y[i],
+        sxy: sxy+x[i]*y[i],
+        sx2y:sx2y+(x[i]^2)*y[i]
+    ),
+    q1: _a*sx4 + _b*sx3 + _c*sx2   = sx2y ,
+    q2: _a*sx3 + _b*sx2 + _c*sx    = sxy  ,
+    q3: _a*sx2 + _b*sx  + _c*(n+1) = sy   ,
+    lst:ev(solve([q1, q2, q3], [_a,_b,_c]),numer),
+    aa:rhs(lst[1][1]),
+    bb:rhs(lst[1][2]),
+    cc:rhs(lst[1][3]),
+    print(sx, sx2, sx3, sx4, sy, sxy, sx2y)
+);
+
+input_arrays()$
+make_abc();
+print("a = ", aa)$
+print("b = ", bb)$
+print("c = ", cc)$
+ash(F);

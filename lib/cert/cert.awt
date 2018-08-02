@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="true" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="429" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.9.1" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:lower-roman; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:ru-RU; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+</metadata>
+<history version="17" edit-time="6260" last-saved="1157438073" uid="fc0d246a-3c99-11db-947a-fe15b7bfd8c3">
+<version id="16" started="1157432422" uid="61d14e94-3ca8-11db-947a-fe15b7bfd8c3" auto="0" top-xid="144"/>
+<version id="17" started="1157438073" uid="97ed6d28-3ca8-11db-9ad4-9ff36d9376ad" auto="0" top-xid="429"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-weight:normal; font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; bgcolor:transparent; widows:2; font-style:normal; text-indent:0in; text-position:normal; margin-bottom:0pt; lang:ru-RU; line-height:1.0; text-align:left; font-variant:normal; text-decoration:none; margin-right:0pt; font-size:12pt; font-stretch:normal"/>
+<s type="C" name="Footnote Text" basedon="Normal" followedby="Current Settings" props="text-position:normal; font-size:10pt"/>
+<s type="P" name="?????_\u1094\'3f\u1077\'3f\u1085\'3f\u1090\'3f\u1088\'3f" basedon="Text" props="text-align:center; lang:-none-; margin-top:0.0833in; line-height:18.000000pt+; margin-bottom:0.0833in; font-size:9pt"/>
+<s type="P" name="Text" basedon="caption" props="lang:-none-; margin-top:0.0833in; font-size:10pt; margin-bottom:0.0833in; font-style:italic"/>
+<s type="P" name="caption" basedon="Normal" props="lang:-none-; margin-top:0.0833in; font-size:10pt; margin-bottom:0.0833in; font-style:italic"/>
+<s type="P" name="?????_\u1087\'3f\u1088\'3f\u1072\'3f\u1074\'3f\u1086\'3f" basedon="Text" props="margin-top:0.0833in; font-size:8pt; margin-bottom:0.0833in; lang:-none-; font-weight:bold; line-height:18.000000pt+; text-align:right"/>
+<s type="P" name="footer" basedon="Normal" props="lang:-none-; tabstops:5.452778in/C0,10.905556in/R0; font-size:8pt; font-family:Arial; color:808080"/>
+<s type="P" name="Body Text" basedon="Normal" props="lang:-none-; font-size:12pt; margin-bottom:0.0833in"/>
+<s type="P" name="_\u1090\'3f\u1077\'3f\u1082\'3f\u1089\'3f\u1090\'3f_\u1087\'3f\u1088\'3f\u1072\'3f\u1074\'3f\u1086\'3f" basedon="_\u1090\'3f\u1077\'3f\u1082\'3f\u1089\'3f\u1090\'3f" props="text-align:right; lang:-none-; line-height:18.000000pt+; font-size:10pt"/>
+<s type="C" name="Reference" props="font-size:10pt"/>
+<s type="P" name="Table Contents" basedon="Body Text" props="lang:-none-; font-size:12pt; margin-bottom:0.0833in"/>
+<s followedby="_\u1090\'3f\u1077\'3f\u1082\'3f\u1089\'3f\u1090\'3f" name="_\u1090\'3f\u1077\'3f\u1082\'3f\u1089\'3f\u1090\'3f_\u1094\'3f\u1077\'3f\u1085\'3f\u1090\'3f\u1088\'3f" basedon="_\u1090\'3f\u1077\'3f\u1082\'3f\u1089\'3f\u1090\'3f" type="P" props="text-align:center; lang:-none-; font-size:10pt; font-weight:bold; line-height:18.000000pt+"/>
+<s type="P" name="footnote text" basedon="Normal" props="lang:-none-; text-indent:-0.1965in; font-size:8pt; margin-right:0.0000in; margin-left:0.1965in"/>
+<s type="P" name="_\u1090\'3f\u1077\'3f\u1082\'3f\u1089\'3f\u1090\'3f" basedon="Normal" props="text-align:justify; lang:-none-; line-height:18.000000pt+; font-size:10pt"/>
+</styles>
+<pagesize pagetype="Custom" orientation="landscape" width="11.692913" height="8.500000" units="in" page-scale="1.000000"/>
+<section footer="4" xid="143" props="dom-dir:ltr; section-space-after:2.00cm; page-margin-right:1.50cm; column-line:off; page-margin-footer:1.27cm; text-align:left; page-margin-left:1.50cm; page-margin-top:1.50cm; page-margin-bottom:0.8125in; section-max-column-height:0.00cm; columns:2; column-gap:1.87cm; page-margin-header:1.27cm">
+<p style="Normal" xid="144" props="font-family:Times New Roman; font-size:10pt; lang:-none-; font-weight:bold; text-position:normal; text-align:center; font-style:normal; text-decoration:none"><c props="font-weight:bold; lang:ru-RU">Результат анализа</c></p>
+<p style="Normal" xid="13" props="font-family:Times New Roman; font-size:10pt; lang:-none-; font-weight:bold; text-position:normal; text-align:center; font-style:normal; text-decoration:none"><c props="font-weight:bold; lang:ru-RU">Наименовании лаборатории _________________________</c></p>
+<table xid="15" props="list-tag:1">
+<cell xid="16" props="bot-attach:1; left-attach:0; right-attach:3; top-attach:0">
+<p style="Normal" xid="17" props="font-family:Times New Roman; font-size:10pt; lang:ru-RU; font-weight:normal; text-position:normal; text-align:center; font-style:normal; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:ru-RU; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Содержание</c></p>
+<p style="Normal" xid="156" props="font-family:Times New Roman; font-size:10pt; lang:ru-RU; font-weight:normal; text-position:normal; text-align:center; font-style:normal; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:ru-RU; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"> в процентах</c></p>
+</cell>
+<cell xid="25" props="bot-attach:2; left-attach:3; right-attach:4; top-attach:0">
+<p style="Normal" xid="26" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal">Выход</c></p>
+<p style="Normal" xid="152" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal"> летучих</c></p>
+<p style="Normal" xid="153" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal"> вещ., %</c></p>
+</cell>
+<cell xid="28" props="bot-attach:2; left-attach:4; right-attach:5; top-attach:0">
+<p style="Normal" xid="29" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal">Теплота</c></p>
+<p style="Normal" xid="154" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal"> сгорания,</c></p>
+<p style="Normal" xid="155" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal"> кДж/кг</c></p>
+</cell>
+<cell xid="31" props="bot-attach:2; left-attach:5; right-attach:6; top-attach:0">
+<p style="Normal" xid="32" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal">Фаза</c></p>
+</cell>
+<cell xid="34" props="bot-attach:2; left-attach:6; right-attach:7; top-attach:0">
+<p style="Normal" xid="35" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal">Проц.</c></p>
+<p style="Normal" xid="157" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal">оплаты</c></p>
+</cell>
+<cell xid="37" props="bot-attach:2; left-attach:7; right-attach:8; top-attach:0">
+<p style="Normal" xid="38" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal">Снято</c></p>
+<p style="Normal" xid="158" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal">тонн</c></p>
+</cell>
+<cell xid="40" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="41" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal">Влага</c></p>
+<p style="Normal" xid="149" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal">(</c><c props="lang:en-US; font-size:10pt; font-weight:normal">W</c><c props="lang:ru-RU; font-size:10pt; font-weight:normal">)</c></p>
+</cell>
+<cell xid="43" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="44" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal">Зола</c></p>
+<p style="Normal" xid="150" props="text-align:center; font-size:10pt"><c props="lang:en-US; font-size:10pt; font-weight:normal">A</c><c props="lang:en-US; text-position:superscript; font-size:10pt; font-weight:normal">d</c></p>
+</cell>
+<cell xid="46" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="47" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt; font-weight:normal">Сера</c></p>
+<p style="Normal" xid="151" props="text-align:center; font-size:10pt"><c props="lang:en-US; font-size:10pt; font-weight:normal">S</c></p>
+</cell>
+<cell xid="64" props="bot-attach:3; left-attach:0; right-attach:1; top-attach:2">
+<p style="Normal" xid="65" props="font-size:10pt"></p>
+</cell>
+<cell xid="67" props="bot-attach:3; left-attach:1; right-attach:2; top-attach:2">
+<p style="Normal" xid="68" props="font-size:10pt"></p>
+</cell>
+<cell xid="70" props="bot-attach:3; left-attach:2; right-attach:3; top-attach:2">
+<p style="Normal" xid="71" props="font-size:10pt"></p>
+</cell>
+<cell xid="73" props="bot-attach:3; left-attach:3; right-attach:4; top-attach:2">
+<p style="Normal" xid="74" props="font-size:10pt"></p>
+</cell>
+<cell xid="76" props="bot-attach:3; left-attach:4; right-attach:5; top-attach:2">
+<p style="Normal" xid="77" props="font-size:10pt"></p>
+</cell>
+<cell xid="79" props="bot-attach:3; left-attach:5; right-attach:6; top-attach:2">
+<p style="Normal" xid="80" props="font-size:10pt"></p>
+</cell>
+<cell xid="82" props="bot-attach:3; left-attach:6; right-attach:7; top-attach:2">
+<p style="Normal" xid="83" props="font-size:10pt"></p>
+</cell>
+<cell xid="85" props="bot-attach:3; left-attach:7; right-attach:8; top-attach:2">
+<p style="Normal" xid="86" props="font-size:10pt"></p>
+</cell>
+<cell xid="88" props="bot-attach:4; left-attach:0; right-attach:1; top-attach:3">
+<p style="Normal" xid="89" props="font-size:10pt"></p>
+</cell>
+<cell xid="91" props="bot-attach:4; left-attach:1; right-attach:2; top-attach:3">
+<p style="Normal" xid="92" props="font-size:10pt"></p>
+</cell>
+<cell xid="94" props="bot-attach:4; left-attach:2; right-attach:3; top-attach:3">
+<p style="Normal" xid="95" props="font-size:10pt"></p>
+</cell>
+<cell xid="97" props="bot-attach:4; left-attach:3; right-attach:4; top-attach:3">
+<p style="Normal" xid="98" props="font-size:10pt"></p>
+</cell>
+<cell xid="100" props="bot-attach:4; left-attach:4; right-attach:5; top-attach:3">
+<p style="Normal" xid="101" props="font-size:10pt"></p>
+</cell>
+<cell xid="103" props="bot-attach:4; left-attach:5; right-attach:6; top-attach:3">
+<p style="Normal" xid="104" props="font-size:10pt"></p>
+</cell>
+<cell xid="106" props="bot-attach:4; left-attach:6; right-attach:7; top-attach:3">
+<p style="Normal" xid="107" props="font-size:10pt"></p>
+</cell>
+<cell xid="109" props="bot-attach:4; left-attach:7; right-attach:8; top-attach:3">
+<p style="Normal" xid="110" props="font-size:10pt"></p>
+</cell>
+<cell xid="112" props="bot-attach:5; left-attach:0; right-attach:1; top-attach:4">
+<p style="Normal" xid="113" props="font-size:10pt"></p>
+</cell>
+<cell xid="115" props="bot-attach:5; left-attach:1; right-attach:2; top-attach:4">
+<p style="Normal" xid="116" props="font-size:10pt"></p>
+</cell>
+<cell xid="118" props="bot-attach:5; left-attach:2; right-attach:3; top-attach:4">
+<p style="Normal" xid="119" props="font-size:10pt"></p>
+</cell>
+<cell xid="121" props="bot-attach:5; left-attach:3; right-attach:4; top-attach:4">
+<p style="Normal" xid="122" props="font-size:10pt"></p>
+</cell>
+<cell xid="124" props="bot-attach:5; left-attach:4; right-attach:5; top-attach:4">
+<p style="Normal" xid="125" props="font-size:10pt"></p>
+</cell>
+<cell xid="127" props="bot-attach:5; left-attach:5; right-attach:6; top-attach:4">
+<p style="Normal" xid="128" props="font-size:10pt"></p>
+</cell>
+<cell xid="130" props="bot-attach:5; left-attach:6; right-attach:7; top-attach:4">
+<p style="Normal" xid="131" props="font-size:10pt"></p>
+</cell>
+<cell xid="133" props="bot-attach:5; left-attach:7; right-attach:8; top-attach:4">
+<p style="Normal" xid="134" props="font-size:10pt"></p>
+</cell>
+</table>
+<p style="Normal" xid="14" props="font-family:Times New Roman; font-size:10pt; lang:-none-; font-weight:bold; text-position:normal; text-align:left; font-style:normal; text-decoration:none"><c props="font-weight:normal; lang:ru-RU">«____» __________  20 ___ г.                                                                 Зав. лабораторией</c></p>
+<p style="Normal" xid="137" props="font-family:Times New Roman; font-size:10pt; lang:-none-; font-weight:bold; text-position:normal; text-align:right; font-style:normal; text-decoration:none"></p>
+<p style="Normal" xid="138" props="font-family:Times New Roman; font-size:10pt; lang:-none-; font-weight:bold; text-position:normal; text-align:right; font-style:normal; text-decoration:none"><c props="font-weight:normal; lang:ru-RU">______________________</c></p>
+<p style="Normal" xid="139" props="font-family:Times New Roman; font-size:10pt; lang:-none-; font-weight:bold; text-position:normal; text-align:right; font-style:normal; text-decoration:none"><c props="font-weight:normal; lang:ru-RU">(подпись)           </c></p>
+<p style="Normal" xid="145" props="font-family:Times New Roman; font-size:10pt; lang:-none-; font-weight:bold; text-position:normal; text-align:right; font-style:normal; text-decoration:none"><c props="font-weight:normal; lang:en-US">                                                                                                                </c></p>
+<p style="Normal" xid="141" props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; font-weight:normal; text-position:normal; text-align:right; font-style:normal; lang:-none-"><c props="font-family:Times New Roman; font-size:10pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">|</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:10pt; text-position:normal; font-weight:normal; font-style:normal; lang:ru-RU"> печать лаборатории </c><c props="font-family:Times New Roman; font-size:10pt; color:000000; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">|</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:10pt; text-position:normal; font-weight:normal; font-style:normal; lang:ru-RU">                                                                  ______________________</c></p>
+<p style="Normal" xid="142" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:ru-RU; text-align:right; text-indent:0.0000in; text-position:normal; margin-top:0.0000in; font-weight:normal; line-height:1.000000; margin-bottom:0.0000in; font-size:10pt; margin-right:0.0000in; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:en-US; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">                                                                                  </c><c props="font-family:Times New Roman; font-size:10pt; lang:ru-RU; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">(фамилия)           </c></p>
+<p style="Normal" xid="146" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:ru-RU; text-align:center; text-indent:0.0000in; text-position:normal; margin-top:0.0000in; font-weight:normal; margin-right:0.0000in; text-decoration:none; font-size:10pt; line-height:1.000000; margin-bottom:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; lang:ru-RU; text-position:normal; font-weight:bold; font-style:normal; font-size:10pt">Расчёты за качество топлива</c></p>
+<p style="Normal" xid="147" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:-none-; text-align:center; text-indent:0.0000in; text-position:normal; margin-top:0.0000in; font-weight:normal; line-height:1.000000; text-decoration:none; font-size:8pt; margin-right:0.0000in; margin-bottom:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; lang:ru-RU; text-position:normal; font-weight:bold; font-style:normal; font-size:10pt">(по золе, сере, влаге</c><foot footnote-id="10" xid="369">
+<p footnote-id="10" style="Footnote Text" xid="370"><c props="font-family:Times New Roman; text-decoration:none; lang:ru-RU; text-position:normal; font-weight:bold; font-style:normal; font-size:10pt">1 </c><c footnote-id="10" props="font-family:Times New Roman; font-size:8pt; lang:-none-; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">По влаге только в рядовом и сортированном </c><c footnote-id="10" props="font-family:Times New Roman; font-size:8pt; lang:ru-RU; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"> </c><c footnote-id="10" props="font-family:Times New Roman; font-size:8pt; lang:-none-; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">топливе</c><c footnote-id="10" props="font-family:Times New Roman; font-size:8pt; lang:ru-RU; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">;</c></p>
+<p footnote-id="10" style="Footnote Text" xid="378"><c footnote-id="10" props="font-family:Times New Roman; font-size:8pt; lang:-none-; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">по мытым углям производятся скидки с веса согласно прейскуранту</c><c footnote-id="10" props="font-family:Times New Roman; text-decoration:none; lang:ru-RU; text-position:normal; font-weight:bold; font-style:normal; font-size:10pt">.</c></p>
+</foot><c props="font-family:Times New Roman; text-decoration:none; lang:ru-RU; text-position:superscript; font-weight:bold; font-style:normal; font-size:10pt">1</c><c props="font-family:Times New Roman; text-decoration:none; lang:ru-RU; text-position:normal; font-weight:bold; font-style:normal; font-size:10pt">)</c></p>
+<table xid="159" props="list-tag:1">
+<cell xid="160" props="bot-attach:3; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="161" props="text-align:center; font-size:10pt"><c props="font-size:10pt; lang:ru-RU">Вес</c></p>
+<p style="Normal" xid="329" props="text-align:center; font-size:10pt"><c props="font-size:10pt; lang:ru-RU">в</c></p>
+<p style="Normal" xid="330" props="text-align:center; font-size:10pt"><c props="font-size:10pt; lang:ru-RU">тоннах</c></p>
+</cell>
+<cell xid="163" props="bot-attach:3; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="164" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">Виды</c></p>
+<p style="Normal" xid="331" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">расчётов</c></p>
+<p style="Normal" xid="332" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">(по золе,</c></p>
+<p style="Normal" xid="333" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">сере,</c></p>
+<p style="Normal" xid="334" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">влаге)</c></p>
+</cell>
+<cell xid="166" props="bot-attach:1; left-attach:2; right-attach:8; top-attach:0">
+<p style="Normal" xid="167" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">Доплаты или скидки за качество</c></p>
+</cell>
+<cell xid="190" props="bot-attach:3; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="191" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">Разница</c></p>
+<p style="Normal" xid="335" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">между</c></p>
+<p style="Normal" xid="336" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">расчёт.</c></p>
+<p style="Normal" xid="337" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">нормой и</c></p>
+<p style="Normal" xid="338" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">фактич.</c></p>
+<p style="Normal" xid="339" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">содерж.</c></p>
+<p style="Normal" xid="340" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">(+ / -)</c></p>
+</cell>
+<cell xid="193" props="bot-attach:3; left-attach:3; right-attach:4; top-attach:1">
+<p style="Normal" xid="194" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">Процент</c></p>
+<p style="Normal" xid="341" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">приплат</c></p>
+<p style="Normal" xid="429" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt"> или скидок</c></p>
+</cell>
+<cell xid="196" props="bot-attach:2; left-attach:4; right-attach:6; top-attach:1">
+<p style="Normal" xid="197" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">В расчёте</c></p>
+<p style="Normal" xid="342" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">за одну</c></p>
+<p style="Normal" xid="343" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">тонну,</c></p>
+<p style="Normal" xid="345" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">грн., коп.</c></p>
+</cell>
+<cell xid="202" props="bot-attach:2; left-attach:6; right-attach:8; top-attach:1">
+<p style="Normal" xid="203" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">Сумма</c></p>
+</cell>
+<cell xid="220" props="bot-attach:3; left-attach:4; right-attach:5; top-attach:2">
+<p style="Normal" xid="221" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">приплата</c></p>
+</cell>
+<cell xid="223" props="bot-attach:3; left-attach:5; right-attach:6; top-attach:2">
+<p style="Normal" xid="224" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">скидка</c></p>
+</cell>
+<cell xid="226" props="bot-attach:3; left-attach:6; right-attach:7; top-attach:2">
+<p style="Normal" xid="227" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">приплат,</c></p>
+<p style="Normal" xid="346" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">грн. коп.</c></p>
+</cell>
+<cell xid="229" props="bot-attach:3; left-attach:7; right-attach:8; top-attach:2">
+<p style="Normal" xid="230" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">скидок</c></p>
+<p style="Normal" xid="347" props="text-align:center; font-size:10pt"><c props="lang:ru-RU; font-size:10pt">грн.коп.</c></p>
+</cell>
+<cell xid="232" props="bot-attach:4; left-attach:0; right-attach:1; top-attach:3">
+<p style="Normal" xid="233" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="235" props="bot-attach:4; left-attach:1; right-attach:2; top-attach:3">
+<p style="Normal" xid="236" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="238" props="bot-attach:4; left-attach:2; right-attach:3; top-attach:3">
+<p style="Normal" xid="239" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="241" props="bot-attach:4; left-attach:3; right-attach:4; top-attach:3">
+<p style="Normal" xid="242" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="244" props="bot-attach:4; left-attach:4; right-attach:5; top-attach:3">
+<p style="Normal" xid="245" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="247" props="bot-attach:4; left-attach:5; right-attach:6; top-attach:3">
+<p style="Normal" xid="248" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="250" props="bot-attach:4; left-attach:6; right-attach:7; top-attach:3">
+<p style="Normal" xid="251" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="253" props="bot-attach:4; left-attach:7; right-attach:8; top-attach:3">
+<p style="Normal" xid="254" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="256" props="bot-attach:5; left-attach:0; right-attach:1; top-attach:4">
+<p style="Normal" xid="257" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="259" props="bot-attach:5; left-attach:1; right-attach:2; top-attach:4">
+<p style="Normal" xid="260" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="262" props="bot-attach:5; left-attach:2; right-attach:3; top-attach:4">
+<p style="Normal" xid="263" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="265" props="bot-attach:5; left-attach:3; right-attach:4; top-attach:4">
+<p style="Normal" xid="266" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="268" props="bot-attach:5; left-attach:4; right-attach:5; top-attach:4">
+<p style="Normal" xid="269" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="271" props="bot-attach:5; left-attach:5; right-attach:6; top-attach:4">
+<p style="Normal" xid="272" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="274" props="bot-attach:5; left-attach:6; right-attach:7; top-attach:4">
+<p style="Normal" xid="275" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="277" props="bot-attach:5; left-attach:7; right-attach:8; top-attach:4">
+<p style="Normal" xid="278" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="280" props="bot-attach:6; left-attach:0; right-attach:1; top-attach:5">
+<p style="Normal" xid="281" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="283" props="bot-attach:6; left-attach:1; right-attach:2; top-attach:5">
+<p style="Normal" xid="284" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="286" props="bot-attach:6; left-attach:2; right-attach:3; top-attach:5">
+<p style="Normal" xid="287" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="289" props="bot-attach:6; left-attach:3; right-attach:4; top-attach:5">
+<p style="Normal" xid="290" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="292" props="bot-attach:6; left-attach:4; right-attach:5; top-attach:5">
+<p style="Normal" xid="293" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="295" props="bot-attach:6; left-attach:5; right-attach:6; top-attach:5">
+<p style="Normal" xid="296" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="298" props="bot-attach:6; left-attach:6; right-attach:7; top-attach:5">
+<p style="Normal" xid="299" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="301" props="bot-attach:6; left-attach:7; right-attach:8; top-attach:5">
+<p style="Normal" xid="302" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="304" props="bot-attach:7; left-attach:0; right-attach:1; top-attach:6">
+<p style="Normal" xid="305" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="307" props="bot-attach:7; left-attach:1; right-attach:2; top-attach:6">
+<p style="Normal" xid="308" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="310" props="bot-attach:7; left-attach:2; right-attach:3; top-attach:6">
+<p style="Normal" xid="311" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="313" props="bot-attach:7; left-attach:3; right-attach:4; top-attach:6">
+<p style="Normal" xid="314" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="316" props="bot-attach:7; left-attach:4; right-attach:5; top-attach:6">
+<p style="Normal" xid="317" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="319" props="bot-attach:7; left-attach:5; right-attach:6; top-attach:6">
+<p style="Normal" xid="320" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="322" props="bot-attach:7; left-attach:6; right-attach:7; top-attach:6">
+<p style="Normal" xid="323" props="text-align:center; font-size:10pt"></p>
+</cell>
+<cell xid="325" props="bot-attach:7; left-attach:7; right-attach:8; top-attach:6">
+<p style="Normal" xid="326" props="text-align:center; font-size:10pt"></p>
+</cell>
+</table>
+<p style="Normal" xid="148" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:ru-RU; text-align:left; text-indent:0.0000in; text-position:normal; margin-top:0.0000in; font-weight:normal; line-height:1.000000; margin-bottom:0.0000in; font-size:10pt; margin-right:0.0000in; text-decoration:none"></p>
+<p style="Normal" xid="348" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:ru-RU; text-align:left; text-indent:0.0000in; text-position:normal; margin-top:0.0000in; font-weight:normal; line-height:1.000000; margin-bottom:0.0000in; font-size:10pt; margin-right:0.0000in; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:ru-RU; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Бухгалтер    _______________               __________________</c></p>
+<p style="Normal" xid="349" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:ru-RU; text-align:left; text-indent:0.0000in; text-position:normal; margin-top:0.0000in; font-weight:normal; line-height:1.000000; margin-bottom:0.0000in; font-size:10pt; margin-right:0.0000in; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:ru-RU; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">                           (подпись)                               (фамилия)</c></p>
+<p style="Normal" xid="350" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:-none-; text-align:left; text-indent:0.0000in; text-position:normal; margin-top:0.0000in; font-weight:normal; margin-right:0.0000in; margin-bottom:0.0000in; font-size:8pt; line-height:1.000000; text-decoration:none"><c props="lang:ru-RU"><cbr/></c></p>
+<table xid="381" props="list-tag:1; bot-style:0; homogeneous:1; top-style:0; right-style:0; bg-style:1; left-style:0; left-color:000000">
+<cell xid="382" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="383" props="font-family:Times New Roman; font-size:9pt; lang:-none-; font-weight:normal; text-position:normal; text-align:center; font-style:normal; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">УКРАИНА</c></p>
+<p style="?????_\u1094\'3f\u1077\'3f\u1085\'3f\u1090\'3f\u1088\'3f" xid="389" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:-none-; text-align:center; text-indent:0.0000in; text-position:normal; margin-top:0.0833in; font-weight:normal; line-height:9.900000pt; margin-bottom:0.0833in; font-size:9pt; margin-right:0.0000in; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">МИНИСТЕРСТВО ТОПЛИВА</c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; dir-override:ltr; font-style:normal; text-decoration:none"> </c></p>
+<p style="?????_\u1094\'3f\u1077\'3f\u1085\'3f\u1090\'3f\u1088\'3f" xid="390" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:-none-; text-align:center; text-indent:0.0000in; text-position:normal; margin-top:0.0833in; font-weight:normal; line-height:9.900000pt; margin-bottom:0.0833in; font-size:9pt; margin-right:0.0000in; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">И ЭНЕРГЕТИКИ</c></p>
+<p style="?????_\u1094\'3f\u1077\'3f\u1085\'3f\u1090\'3f\u1088\'3f" xid="391" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:-none-; text-align:center; text-indent:0.0000in; text-position:normal; margin-top:0.0833in; font-weight:normal; line-height:9.900000pt; margin-bottom:0.0833in; font-size:9pt; margin-right:0.0000in; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">OAO</c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; dir-override:ltr; font-style:normal; text-decoration:none"> “</c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Павлоградуголь</c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; dir-override:ltr; font-style:normal; text-decoration:none">”</c></p>
+<p style="?????_\u1094\'3f\u1077\'3f\u1085\'3f\u1090\'3f\u1088\'3f" xid="392" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:-none-; text-align:center; text-indent:0.0000in; text-position:normal; margin-top:0.0833in; font-weight:normal; line-height:9.900000pt; margin-bottom:0.0833in; font-size:9pt; margin-right:0.0000in; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">шахта</c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; dir-override:ltr; font-style:normal; text-decoration:none"> “</c><c props="font-family:Times New Roman; font-size:10pt; lang:ru-RU; text-position:normal; font-weight:normal; dir-override:ltr; font-style:normal; text-decoration:none">Западно-Донбасская</c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; dir-override:ltr; font-style:normal; text-decoration:none">”</c></p>
+<p style="?????_\u1094\'3f\u1077\'3f\u1085\'3f\u1090\'3f\u1088\'3f" xid="393" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:-none-; text-align:center; text-indent:0.0000in; text-position:normal; margin-top:0.0833in; font-weight:normal; line-height:9.900000pt; margin-bottom:0.0833in; font-size:9pt; margin-right:0.0000in; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Почтовый адрес:</c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; dir-override:ltr; font-style:normal; text-decoration:none"> </c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">г.</c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; dir-override:ltr; font-style:normal; text-decoration:none"> </c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Терновка,</c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; dir-override:ltr; font-style:normal; text-decoration:none"> </c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Днепропетровской области.</c></p>
+</cell>
+<cell xid="385" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="386" props="font-family:Times New Roman; font-size:10pt; lang:-none-; font-weight:bold; text-position:normal; text-align:right; font-style:normal; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:bold; font-style:normal; text-decoration:none">УДОСТОВЕРЕНИЕ</c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:bold; dir-override:ltr; font-style:normal; text-decoration:none"> № </c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:bold; font-style:normal; text-decoration:underline ">  </c><c props="font-family:Times New Roman; font-size:10pt; lang:ru-RU; text-position:normal; font-weight:bold; font-style:normal; text-decoration:underline ">   </c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:bold; font-style:normal; text-decoration:underline ">  </c><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:bold; font-style:normal; text-decoration:none">    </c></p>
+<p style="?????_\u1087\'3f\u1088\'3f\u1072\'3f\u1074\'3f\u1086\'3f" xid="394" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:-none-; text-align:right; text-indent:0.0000in; text-position:normal; margin-top:0.0833in; font-weight:bold; line-height:18.000000pt+; margin-bottom:0.0833in; font-size:10pt; margin-right:0.0000in; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:bold; font-style:normal; text-decoration:none">о качестве угля,</c></p>
+<p style="?????_\u1087\'3f\u1088\'3f\u1072\'3f\u1074\'3f\u1086\'3f" xid="395" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:-none-; text-align:right; text-indent:0.0000in; text-position:normal; margin-top:0.0833in; font-weight:bold; line-height:18.000000pt+; margin-bottom:0.0833in; font-size:8pt; margin-right:0.0000in; text-decoration:none"><c props="font-family:Times New Roman; font-size:10pt; lang:-none-; text-position:normal; font-weight:bold; font-style:normal; text-decoration:none">отгруженного потребителям</c></p>
+<p style="?????_\u1087\'3f\u1088\'3f\u1072\'3f\u1074\'3f\u1086\'3f" xid="396" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:-none-; text-align:right; text-indent:0.0000in; text-position:normal; margin-top:0.0833in; font-weight:bold; line-height:18.000000pt+; margin-bottom:0.0833in; font-size:8pt; margin-right:0.0000in; text-decoration:none"></p>
+<p style="?????_\u1087\'3f\u1088\'3f\u1072\'3f\u1074\'3f\u1086\'3f" xid="397" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:-none-; text-align:right; text-indent:0.0000in; text-position:normal; margin-top:0.0833in; font-weight:bold; line-height:18.000000pt+; margin-bottom:0.0833in; font-size:8pt; margin-right:0.0000in; text-decoration:none"></p>
+</cell>
+</table>
+<p style="Normal" xid="380" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:-none-; text-align:left; text-indent:0.0000in; text-position:normal; margin-top:0.0000in; font-weight:normal; margin-right:0.0000in; margin-bottom:0.0000in; font-size:8pt; line-height:1.000000; text-decoration:none"></p>
+<p style="Normal" xid="399" props="dom-dir:ltr"><c props="font-size:10pt">Марка</c><c props="font-size:10pt; dir-override:ltr">  </c><c props="font-size:10pt">    </c><c props="text-decoration:underline; font-size:10pt">  ДГ</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt">           </c><c props="lang:ru-RU; font-size:10pt; dir-override:ltr; text-decoration:underline">   </c></p>
+<p style="Normal" xid="400" props="dom-dir:ltr"><c props="font-size:10pt">Класс</c><c props="font-size:10pt; dir-override:ltr">  </c><c props="font-size:10pt">     </c><c props="text-decoration:underline; font-size:10pt">   0-200</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">мм</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt">   </c></p>
+<p style="Normal" xid="401" props="dom-dir:ltr"><c props="font-size:10pt">Нормы,</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="font-size:10pt">установленные техническими условиями или ГОСТом для данного угольного предприятия в процентах:</c></p>
+<p style="Normal" xid="404" props="dom-dir:ltr"><c props="font-size:10pt">Зола</c><c props="font-size:10pt; dir-override:ltr"> (</c><c props="font-size:10pt">Ad</c><c props="font-size:10pt; dir-override:ltr">)  </c><c props="font-size:10pt">средняя</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="text-decoration:underline; font-size:10pt">              проц.</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="font-size:10pt"> ,</c><c props="font-size:10pt; dir-override:ltr">      </c><c props="font-size:10pt">предельная</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">                 проц</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="font-size:10pt"> ;</c></p>
+<p style="Normal" xid="405" props="dom-dir:ltr"><c props="font-size:10pt">Сера</c><c props="font-size:10pt; dir-override:ltr"> (</c><c props="font-size:10pt">S</c><c props="font-size:10pt; dir-override:ltr">)   </c><c props="font-size:10pt">средняя</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">              проц.</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="font-size:10pt">,</c><c props="font-size:10pt; dir-override:ltr">      </c><c props="font-size:10pt">предельная</c><c props="font-size:10pt; dir-override:ltr">  </c><c props="font-size:10pt">  </c><c props="text-decoration:underline; font-size:10pt">               проц.</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="font-size:10pt; dir-override:ltr">;</c></p>
+<p style="Normal" xid="406" props="dom-dir:ltr"><c props="font-size:10pt">Влага</c><c props="font-size:10pt; dir-override:ltr"> (</c><c props="font-size:10pt">W</c><c props="font-size:10pt; dir-override:ltr">) </c><c props="font-size:10pt">средняя</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="text-decoration:underline; font-size:10pt">              проц.</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="font-size:10pt"> ,</c><c props="font-size:10pt; dir-override:ltr">      </c><c props="font-size:10pt">предельная</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="font-size:10pt">  </c><c props="text-decoration:underline; font-size:10pt">               проц</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="font-size:10pt"> .</c></p>
+<p style="Normal" xid="407" props="dom-dir:ltr"></p>
+<p style="Normal" xid="408" props="dom-dir:ltr"><c props="font-size:10pt">Шахта</c><c props="font-size:10pt; dir-override:ltr">  </c><c props="font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">  </c><c props="lang:ru-RU; font-size:10pt; text-decoration:underline">Западно-Донбасская</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt">                                                                     </c></p>
+<p style="Normal" xid="409" props="dom-dir:ltr"><c props="font-size:10pt">Станция отправления</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="text-decoration:underline; font-size:10pt">    “Богуславский</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt">”   </c><c props="text-decoration:underline; font-size:10pt">Приднепровской жел.</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">дороги.</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt">     </c><c props="font-size:10pt; dir-override:ltr">   </c></p>
+<p style="Normal" xid="410" props="dom-dir:ltr"><c props="font-size:10pt">Проба отобрана в соответствии с ДСТУ</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="font-size:10pt">4096-2002</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="font-size:10pt">г.</c><c props="font-size:10pt; dir-override:ltr"> </c></p>
+<p style="Normal" xid="412" props="dom-dir:ltr"><c props="font-size:10pt">от партии топлива весом</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="text-decoration:underline; font-size:10pt">         </c><c props="font-size:10pt">тонн</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt">  </c><c props="text-decoration:underline; font-size:10pt">      </c><c props="font-size:10pt"> вагонов,</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="font-size:10pt">отгруженного</c></p>
+<p style="Normal" xid="413" props="dom-dir:ltr"><c props="font-size:10pt">за время</c><c props="font-size:10pt; dir-override:ltr">   </c><c props="font-size:10pt">с</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt">                          </c><c props="text-decoration:underline; font-size:10pt"> </c><c props="font-size:10pt">по</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="text-decoration:underline; font-size:10pt">                                </c><c props="font-size:10pt">  20</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">      </c><c props="font-size:10pt">г.</c></p>
+<p style="Normal" xid="414" props="dom-dir:ltr"><c props="font-size:10pt">потребителям,</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="font-size:10pt">перечисленным на обороте.</c></p>
+<p style="Normal" xid="415" props="dom-dir:ltr"><c props="font-size:10pt">Проба помещена в банки</c><c props="font-size:10pt; dir-override:ltr"> №</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">      б</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">/</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">н</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt">                                                     </c></p>
+<p style="Normal" xid="417" props="dom-dir:ltr"><c props="font-size:10pt">и опломбирована пломбиром</c><c props="font-size:10pt; dir-override:ltr">  № </c><c props="text-decoration:underline; font-size:10pt">  OX</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">-</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">OX</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt">                                  </c><c props="font-size:10pt"> .</c></p>
+<p style="Normal" xid="418" props="dom-dir:ltr"><c props="font-size:10pt">Вес пробы лабораторной</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">                                                                  </c><c props="font-size:10pt">г.</c></p>
+<p style="Normal" xid="419" props="dom-dir:ltr"><c props="font-size:10pt">арбитражной</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="text-decoration:underline; font-size:10pt">                                                                                      </c><c props="font-size:10pt">г.</c></p>
+<p style="Normal" xid="420" props="dom-dir:ltr"><c props="font-size:10pt">Фактическое содержание видимой породы</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="text-decoration:underline; font-size:10pt">                                     </c><c props="font-size:10pt">проц.</c></p>
+<p style="Normal" xid="421" props="dom-dir:ltr"><c props="font-size:10pt">Фактическое содержание мелочи</c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">                                                     </c><c props="font-size:10pt">проц.</c></p>
+<p style="Normal" xid="422" props="dom-dir:ltr"><c props="font-size:10pt">Уголь принят по наружному осмотру и данным предварительного</c></p>
+<p style="Normal" xid="424" props="dom-dir:ltr"><c props="font-size:10pt">опробования</c><c props="font-size:10pt; dir-override:ltr"> </c><c props="text-decoration:underline; font-size:10pt">                                                   </c></p>
+<p style="Normal" xid="425" props="dom-dir:ltr"></p>
+<p style="Normal" xid="426" props="dom-dir:ltr"><c props="text-decoration:underline; font-size:10pt">“       “                                 </c><c props="font-size:10pt"> 200</c><c props="lang:ru-RU; font-size:10pt"> </c><c props="lang:ru-RU; font-size:10pt; text-decoration:underline">  </c><c props="text-decoration:underline; dir-override:ltr; font-size:10pt"> </c><c props="text-decoration:underline; font-size:10pt">  </c><c props="font-size:10pt"> г.</c></p>
+<p style="Normal" xid="427" props="dom-dir:ltr"><c props="font-size:10pt; dir-override:ltr">                                                                     </c><c props="font-size:10pt">ОТК или инспекцией</c></p>
+</section>
+<section id="4" listid="0" parentid="0" type="footer" xid="375">
+<p xid="376" props="font-family:Arial; text-decoration:none; color:808080; font-size:8pt; font-weight:normal; text-position:normal; text-align:left; font-style:normal; lang:-none-"></p>
+<p xid="377" props="font-family:Arial; text-decoration:none; color:808080; font-size:8pt; font-weight:normal; text-position:normal; text-align:left; font-style:normal; lang:-none-"><c props="font-family:Arial; font-size:8pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:-none-">документ подготовлен к печати комплексом МКУ</c></p>
+</section>
+</abiword>

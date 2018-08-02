@@ -1,0 +1,1 @@
+start/wait regedit -s "disableautologin.reg"

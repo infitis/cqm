@@ -1,0 +1,41 @@
+start
+
+functions
+item fuone       " 1"
+item futrue      " x"
+item fufalse     "!x"
+item fu2         "f1 | f2"
+end
+
+
+traffics
+item  feeder_c515 питатель_515     c515 p515 0 fu2 (f1=f511 f2=f512)
+end
+
+points
+item  3  p516  Конвейер_516    c516  fp516 fa516 f516
+item  3  p502  На_Склад_(502)  c502  fp502 fa502 f516
+item  10 p515  Со_Склада_(515) c515  fp515 fa515 0 0 feeder_c515 1
+end
+
+routes
+item  lift          Добыча      0    p516 fuone () + p502 fuone ()
+item  to_vagons     На_Вагоны   0    p516 fuone () + p515 fuone ()
+end
+
+accumulators
+item storage Склад p502 p515 0
+end
+
+
+vagons
+item 2 v1 Вагоны  to_vagons 0 eov
+end
+
+autoexecs
+set eov     1
+set debug   3
+set minteov 200
+end
+
+end

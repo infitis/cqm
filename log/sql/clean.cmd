@@ -1,0 +1,4 @@
+del *.log
+del *.sql
+
+

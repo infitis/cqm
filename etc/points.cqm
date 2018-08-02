@@ -1,0 +1,62 @@
+start
+
+functions
+#    <имя>    "<huru-скрипт>"
+item fuone    "1"
+item fuc20xb1 "!fgb&cmb1&!cmb2"
+item fuc20xb2 "!fgb&!cmb1&cmb2"
+item fuc20xbo "fgb"
+item fufromb  "fs1|fs2"
+item fufeeder "s1|s2|s3|s4"
+item fuf20    "fc20"
+item fub1     "(1/(t1+0.0001))*(t1>0)"
+item fub2     "0.5*(1/(t2+0.0001))*(t2>0)*(t1>0)"
+end
+
+
+traffics
+#     <имя>      <титул>    <конв> <род_точка> <род.coaltype> <решающая_функция> (<аргумент_в_функции>=<имя_сигнала> ...)
+item  p20xb1     к20-Б1     c20    p20         0              fuc20xb1  (fgb=fgb cmb1=cmb1 cmb2=cmb2)
+item  p20xb2     к20-Б2     c20    p20         0              fuc20xb2  (fgb=fgb cmb1=cmb1 cmb2=cmb2)
+#item  p20xBoiler к20-котел  c20    p20         0              fuc20xbo  (fgb=fgb)
+item  b1xp4      Б1-путь4   c4     p4          0              fufromb   (fs1=f1 fs2=f2)
+item  b1xp5      Б1-путь5   c5     p5          0              fufromb   (fs1=f3 fs2=f4)
+item  b2xp4      Б2-путь4   c4     p4          0              fufromb   (fs1=f5 fs2=f6)
+item  b2xp5      Б2-путь5   c5     p5          0              fufromb   (fs1=f7 fs2=f8)
+item  feeder_p4  питатель4  c4     p4          0              fufeeder  (s1=f1 s2=f2 s3=f5 s4=f6)
+item  feeder_p5  питатель5  c5     p5          0              fufeeder  (s1=f3 s2=f4 s3=f7 s4=f8)
+item  feeder_p20 питатель20 c20    p20         0              fuf20     (fc20=fc20)
+end
+
+points
+item 10 p20 Конвейер_20 c20 fp20 fa20 0 0 feeder_p20 0
+item 10 p4  Путь_4      c4  fp4  fa4  0 0 feeder_p4  0
+item 10 p5  Путь_5      c5  fp5  fa5  0 0 feeder_p5  0
+end
+
+vagons
+item 0 way4  Путь_4 p4 eov4
+item 0 way5  Путь_5 p5 eov5
+end
+
+routes
+item to_b1     На_банку_1   0 p20xb1     fuone ()
+item to_b2     На_банку_2   0 p20xb2     fuone ()
+#item to_boiler На_котельную 0 p20xBoiler fuone ()
+item from_b1   Из_банки_1   0 b1xp4 fub1 (t1=b1xp4) - b2xp4 fub2 (t1=b1xp4 t2=b2xp4) + b1xp5 fub1 (t1=b1xp5) - b2xp5 fub2 (t1=b1xp5 t2=b2xp5)
+item from_b2   Из_банки_2   0 b2xp4 fub1 (t1=b2xp4) - b1xp4 fub2 (t1=b2xp4 t2=b1xp4) + b2xp5 fub1 (t1=b2xp5) - b1xp5 fub2 (t1=b2xp5 t2=b1xp5)
+end
+
+
+accumulators
+item b1 Банка_1 to_b1 from_b1 3600
+item b2 Банка_2 to_b2 from_b2 3600
+end
+
+autoexecs
+set debug 3
+set minteov 180
+set eov 1
+end
+
+end

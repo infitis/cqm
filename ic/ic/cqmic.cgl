@@ -1,0 +1,27 @@
+Functions called:
+ fflush (4 times)
+ strcmp (60 times)
+ strcpy (6 times)
+ memset (8 times)
+ sprintf (4 times)
+ delete (31 times)
+ free (7 times)
+ memmove (36 times)
+ new (40 times)
+ SysReallocMem (10603 times)
+ SysFreeMem (79723 times)
+ SysGetMem (79724 times)
+ lstrlenA (1 times)
+ lstrcpynA (4 times)
+ calloc (1 times)
+ strlen (660 times)
+ realloc (1 times)
+ strdup (1 times)
+ malloc (4 times)
+ memcpy (106 times)
+Resource types used:
+ object (40 allocs, 29 max)
+ memory block (79731 allocs, 4812 max)
+Modules used:
+ 00400000 06/21/2005 11:35:16 D:\projects\mku\ic\ic\cqmic.exe
+==========================================

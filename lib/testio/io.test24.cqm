@@ -1,0 +1,39 @@
+# конфигурация ввода/вывода для starobesh
+start test24di
+
+# устройства
+devices
+item 130 a10   devdin 768 0 0
+item 66  a10   devcou 768 0 0
+end
+
+# сигналы
+signals
+# тип - дискретные и клиентские 129+256=385
+item 385 130 d0   d0    devdin      9  0 1 1 0
+item 385 130 d1   d1    devdin      9  1 1 1 0
+item 385 130 d2   d2    devdin      9  2 1 1 0
+item 385 130 d3   d3    devdin      9  3 1 1 0
+item 385 130 d4   d4    devdin      9  4 1 1 0
+item 385 130 d5   d5    devdin      9  5 1 1 0
+item 385 130 d6   d6    devdin      9  6 1 1 0
+item 385 130 d7   d7    devdin      9  7 1 1 0
+item 385 130 d8   d8    devdin     17  0 1 1 0
+item 385 130 d9   d9    devdin     17  1 1 1 0
+item 385 130 d10  d10   devdin     17  2 1 1 0
+item 385 130 d11  d11   devdin     17  3 1 1 0
+item 385 130 d12  d12   devdin     17  4 1 1 0
+item 385 130 d13  d13   devdin     17  5 1 1 0
+item 385 130 d14  d14   devdin     17  6 1 1 0
+item 385 130 d15  d15   devdin     17  7 1 1 0
+item 385 130 d16  d16   devdin     25  0 1 1 0
+item 385 130 d17  d17   devdin     25  1 1 1 0
+item 385 130 d18  d18   devdin     25  2 1 1 0
+item 385 130 d19  d19   devdin     25  3 1 1 0
+item 385 130 d20  d20   devdin     25  4 1 1 0
+item 385 130 d21  d21   devdin     25  5 1 1 0
+item 385 130 d22  d22   devdin     25  6 1 1 0
+item 385 130 d23  d23   devdin     25  7 1 1 0
+end
+
+end

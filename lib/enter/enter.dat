@@ -1,0 +1,15 @@
+core: getclientdata
+core: sdv eov 0
+core: sdv eov 1
+core: sdv c516v 0
+core: sdv eov 0
+core: sdv eov 1
+core: sdv c516v 0
+core: setaccumulator storage 1000 33 10 0
+core: setaccumulator ?
+core: sdv c16v 1
+core: sdv c16v 0
+core: sdv c16v 1
+core: sdv c16s 1
+core: sdv c16v 1
+core: set debug 8

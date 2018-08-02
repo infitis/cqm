@@ -1,0 +1,10 @@
+*\cqmcli.exe
+*\cqmsrv.exe
+*\cqmic.exe
+*.~*
+*.tmp
+*.tds
+*.obj
+*.csv
+*.log
+

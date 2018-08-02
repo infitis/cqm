@@ -1,0 +1,38 @@
+#zapdon
+start
+
+functions
+#    <имя>    "<huru-скрипт>"
+item fuone    "1"
+item fufeeder "s1|s2|s3"
+end
+
+
+traffics
+#     <имя>      <титул>    <конв> <род_точка> <род.coaltype> <решающая_функция> (<аргумент_в_функции>=<имя_сигнала> ...)
+item  feeder_p3  питатель1  c3     p3          0              fufeeder  (s1=f1 s2=f2 s3=f3)
+item  feeder_p4  питатель4  c4     p4          0              fufeeder  (s1=f4 s2=f5 s3=f6)
+end
+
+points
+item 10 p3  Путь_3      c3  fp3  fa3  0 0 feeder_p3  0
+item 10 p4  Путь_4      c4  fp4  fa4  0 0 feeder_p4  0
+end
+
+vagons
+item 0 v3  Путь_3 p3 eov3
+item 0 v4  Путь_4 p4 eov4
+end
+
+routes
+item to_vagons Отгрузка     0 p3 fuone () + p4 fuone ()
+end
+
+
+autoexecs
+set debug 3
+set minteov 180
+set eov 1
+end
+
+end

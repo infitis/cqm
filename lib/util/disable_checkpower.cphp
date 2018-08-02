@@ -1,0 +1,19 @@
+<?
+
+$filename = "..\..\etc\cqmsrv.ini";
+
+$s = file_get_contents($filename);
+$t = str_replace("checkpower=1", "checkpower=0", $s);
+if ($s != $n)
+	print "Замена состоялась\n";
+
+$n = str_replace("usepassword=1", "usepassword=0", $t);
+if ($s != $n)
+	print "Замена состоялась\n";
+
+$bytes = file_put_contents($filename, $n);
+
+print "Записано байт : $bytes\n";
+
+
+?>

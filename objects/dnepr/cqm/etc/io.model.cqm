@@ -1,0 +1,34 @@
+# конфигурация ввода/вывода для dnepr
+start cqm.io.dnepr
+
+# устройства
+devices
+item 130 a10 a10din 768 0 0
+item 66  a10 a10cou 768 0 0
+end
+
+# сигналы
+signals
+
+# частотные
+item 67  0   fa516  Fa516   a10cou    0  0 0 1 700
+item 67  0   fp516  Fp516   a10cou    1  1 0 1 300
+item 67  0   fa502  Fa502   a10cou    2  0 0 1 760
+item 67  0   fp502  Fp502   a10cou    3  1 0 1 300
+item 67  0   fa515  Fa515   a10cou    4  4 0 1 730
+item 67  0   fp515  Fp515   a10cou    5  0 0 1 300
+
+# дискретные
+#            обозначение название устройство канал бит инверсия активность поумолчанию
+item 385 130 f516        п516     a10din      8    0   1        1          0
+item 385 130 c516v       к516в    a10din      8    1   1        1          0
+item 385 130 c516s       к516с    a10din      8    2   1        1          0
+item 385 130 c502        к502     a10din      8    3   1        1          0
+item 385 130 f571        п571     a10din      8    4   1        1          0
+item 385 130 f572        п572     a10din      8    5   1        1          0
+item 385 130 c515        к515     a10din      8    6   1        1          0
+item 385 130 eov         кв       a10din      8    7   1        1          0
+item 385 132 power       Ток      a10din      16   7   1        1          1
+end
+
+end

@@ -1,0 +1,67 @@
+# конфигурация ввода/вывода для starobesh
+start test166x2
+
+# устройства
+devices
+item 130 a10   din1 768 0 0
+item 66  a10   cou1 768 0 0
+item 130 a10   din2 800 0 0
+item 66  a10   cou2 800 0 0
+end
+
+# сигналы
+signals
+
+# частотный сигналы
+item 67  0   f11   f11    cou1      0  0 0 1 790
+item 67  0   f12   f12    cou1      1  1 0 1 500
+item 67  0   f13   f13    cou1      2  2 0 1 730
+item 67  0   f14   f14    cou1      3  0 0 1 350
+item 67  0   f15   f15    cou1      4  1 0 1 730
+item 67  0   f16   f16    cou1      5  2 0 1 350
+
+item 67  0   f21   f21    cou2      0  0 0 1 790
+item 67  0   f22   f22    cou2      1  1 0 1 500
+item 67  0   f23   f23    cou2      2  2 0 1 730
+item 67  0   f24   f24    cou2      3  0 0 1 350
+item 67  0   f25   f25    cou2      4  1 0 1 730
+item 67  0   f26   f26    cou2      5  2 0 1 350
+
+# тип - дискретные и клиентские 129+256=385
+item 385 130 d100  d100   din1      8  0 1 1 0
+item 385 130 d101  d101   din1      8  1 1 1 0
+item 385 130 d102  d102   din1      8  2 1 1 0
+item 385 130 d103  d103   din1      8  3 1 1 0
+item 385 130 d104  d104   din1      8  4 1 1 0
+item 385 130 d105  d105   din1      8  5 1 1 0
+item 385 130 d106  d106   din1      8  6 1 1 0
+item 385 130 d107  d107   din1      8  7 1 1 0
+item 385 130 d108  d108   din1     16  0 1 1 0
+item 385 130 d109  d109   din1     16  1 1 1 0
+item 385 130 d110  d110   din1     16  2 1 1 0
+item 385 130 d111  d111   din1     16  3 1 1 0
+item 385 130 d112  d112   din1     16  4 1 1 0
+item 385 130 d113  d113   din1     16  5 1 1 0
+item 385 130 d114  d114   din1     16  6 1 1 0
+item 385 130 d115  d115   din1     16  7 1 1 0
+
+item 385 130 d200  d200   din2      9  0 1 1 0
+item 385 130 d201  d201   din2      9  1 1 1 0
+item 385 130 d202  d202   din2      9  2 1 1 0
+item 385 130 d203  d203   din2      9  3 1 1 0
+item 385 130 d204  d204   din2      9  4 1 1 0
+item 385 130 d205  d205   din2      9  5 1 1 0
+item 385 130 d206  d206   din2      9  6 1 1 0
+item 385 130 d207  d207   din2      9  7 1 1 0
+item 385 130 d208  d208   din2     17  0 1 1 0
+item 385 130 d209  d209   din2     17  1 1 1 0
+item 385 130 d210  d210   din2     17  2 1 1 0
+item 385 130 d211  d211   din2     17  3 1 1 0
+item 385 130 d212  d212   din2     17  4 1 1 0
+item 385 130 d213  d213   din2     17  5 1 1 0
+item 385 130 d214  d214   din2     17  6 1 1 0
+item 385 130 d215  d215   din2     17  7 1 1 0
+end
+
+end
+
